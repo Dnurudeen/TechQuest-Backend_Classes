@@ -43,6 +43,11 @@
             </div> -->
             <button type="submit" class="btn btn-primary" name="login">Login</button>
         </form>
+        <br>
+        
+        <div class="w-50 mt-auto me-auto ms-auto">
+            <p>Don't have an account? <a href="registration.php">register</a></p>
+        </div>
     </div>
 </body>
 </html>

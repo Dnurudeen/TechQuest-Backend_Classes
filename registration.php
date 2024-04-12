@@ -25,6 +25,11 @@
             </div>
             <button class="btn btn-primary" name="register">Register</button>
         </form>
+        <br>
+
+        <div class="w-50 mt-auto me-auto ms-auto">
+            <p>Already have an account? <a href="login.php">login</a></p>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

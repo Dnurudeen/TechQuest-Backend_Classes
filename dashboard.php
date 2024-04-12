@@ -11,6 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <?php require_once('layout.php') ?>
+    <style>
+        .dash{
+            padding: 40px;
+        }
+    </style>
 </head>
 <body>
     <?php
@@ -27,6 +32,9 @@
         </h2>
     </div>
 
+    <div>
+        <?php include('include/dash-nav.php') ?>
+    </div>
 
     <div class="text-center my-5">
         <a href="logout.php" class="btn btn-danger w-50">Logout</a>
